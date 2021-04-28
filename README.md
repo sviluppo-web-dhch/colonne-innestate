@@ -1,4 +1,4 @@
-# Esempio di utilizzo del Grid system di Bootstrap
+# Esempio di utilizzo del Grid system di Bootstrap - Colonne innestate
 
 Il seminario Sviluppo web per il corso tenuto dalla Prof.ssa Francesca Tomasi Digital Humanities e Patrimonio Culturale (1)(LM) ha l'obiettivo di illustrare alcune delle funzionalità base e avanzate di Bootstrap e di GitHub. Si intende dunque suggerire diversi approcci allo sviluppo web che implicano l'utilizzo di <a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/" target="_blank" alt="Bootstrap v4.6.x">Bootstrap v4.6.x</a> come framework per la costruzione di un sito web responsive e delle sue componenti d'interfaccia, e di <a href="http://github.com/" target="_blank" alt="GitHub">GitHub</a> per la pubblicazione del sito su uno spazio di hosting.
 
