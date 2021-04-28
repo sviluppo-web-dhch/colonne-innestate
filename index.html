@@ -1,0 +1,54 @@
+<!-- sono presenti attributi style che è meglio evitare in progetti reali -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body style="background: #DDDDDD">
+    <!-- container-fluid -->
+    <div class="container-fluid" style="background: #F8F9FA">
+        <h1>Hello, world!</h1>
+    </div>
+
+    <!-- container -->
+    <div class="container" style="background: #B4B4B5">
+        <!-- riga 1 -->
+        <div class="row">
+            <div class="col-md-4" style="background: #DFB1CB; padding: 5%;">col-md-4</div>
+            <div class="col-md-8" style="background: #ABC297; padding: 5%;">
+                col-md-8
+                <div class="row">
+                    <div class="col-md-6 p-5" style="background-color: palegreen;">
+                        col-md-6 innestata in col-md-8
+                    </div>
+                    <div class="col-md-6 p-5" style="background-color: palevioletred;">
+                        col-md-6 innestata in col-md-8
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- riga 2 -->
+        <div class="row">
+            <div class="col-md-5" style="background: #919EAE; padding: 5%;">col-md-4</div>
+            <div class="col-md-7" style="background: #EDE37F; padding: 5%;">col-md-8</div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
